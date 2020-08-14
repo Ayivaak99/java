@@ -19,6 +19,7 @@ public class removeSpecChars {
 
     public static void main(String[] args) {
         String str = "This function will remove all Sp#e&c.i*al characters!";
+        System.out.println(str);
         System.out.println(applyASCII(str));
         System.out.println(apply(str));
     }
