@@ -14,7 +14,7 @@ public class binomailCoeff {
     }
 
     public static void main(String[] args) {
-        int n=6, k=2;
+        int n=5, k=3;
         long startTime = System.currentTimeMillis();
 
         System.out.printf("Value of C(%d, %d) = %d\n",
