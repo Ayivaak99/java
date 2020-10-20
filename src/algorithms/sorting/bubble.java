@@ -23,7 +23,8 @@ public class bubble {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array: ");
         String numbers = sc.nextLine();
-        int [] array = Arrays.stream(numbers.split(" ")).mapToInt(Integer::parseInt).toArray();
+        int [] array = Arrays.stream(numbers.split(" "))
+                .mapToInt(Integer::parseInt).toArray();
         int [] sortedArray = sort(array);
 
         for(int x: sortedArray)
