@@ -1,2 +1,2 @@
-# java
-A repo of java programs to practive for interviews and such.
+# Code-Reserve
+A repo of programs to practice for interviews and upskilling oneself.
