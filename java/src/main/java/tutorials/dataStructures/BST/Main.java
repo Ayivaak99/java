@@ -1,4 +1,4 @@
-package tutorials.dataStructures.BST;
+package main.java.tutorials.dataStructures.BST;
 
 public class Main {
     public static void main(String[] args) {

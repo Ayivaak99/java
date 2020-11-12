@@ -1,4 +1,4 @@
-package tutorials.masterclass.inheritance;
+package main.java.tutorials.masterclass.inheritance;
 
 public class Vehicle {
     private String type; // Car, motorcycle, truck, train, bicycle etc

@@ -1,4 +1,4 @@
-package tutorials.masterclass.innerClass;
+package main.java.tutorials.masterclass.innerClass;
 
 import java.util.ArrayList;
 

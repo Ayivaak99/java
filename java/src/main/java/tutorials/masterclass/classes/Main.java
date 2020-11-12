@@ -1,4 +1,4 @@
-package tutorials.masterclass.classes;
+package main.java.tutorials.masterclass.classes;
 
 public class Main {
     public static void main(String[] args) {
