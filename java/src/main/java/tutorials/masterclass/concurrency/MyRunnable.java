@@ -1,6 +1,6 @@
-package tutorials.masterclass.concurrency;
+package main.java.tutorials.masterclass.concurrency;
 
-import static tutorials.masterclass.concurrency.ThreadColor.ANSI_RED;
+import static ThreadColor.ANSI_RED;
 
 public class MyRunnable implements Runnable{
     @Override

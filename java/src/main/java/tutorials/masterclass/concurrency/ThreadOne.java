@@ -1,5 +1,5 @@
-package tutorials.masterclass.concurrency;
-import static tutorials.masterclass.concurrency.ThreadColor.ANSI_BLUE;
+package main.java.tutorials.masterclass.concurrency;
+import static ThreadColor.ANSI_BLUE;
 
 public class ThreadOne extends Thread{
     @Override
