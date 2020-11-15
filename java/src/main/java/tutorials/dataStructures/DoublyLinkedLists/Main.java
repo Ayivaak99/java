@@ -9,7 +9,7 @@ public class Main {
         Employee mikeWilson = new Employee("Mike","Wilson",3245);
 
         EmployeeDoublyLinkedList list = new EmployeeDoublyLinkedList();
-        System.out.println(list.isEmpty());
+//        System.out.println(list.isEmpty());
 
         list.addToFront(janeJones);
         list.addToFront(johnDoe);
@@ -17,16 +17,23 @@ public class Main {
         list.addToFront(mikeWilson);
 
         Employee billFumes = new Employee("Bill", "Fumes", 309);
-        list.addToEnd(billFumes);
-        System.out.println(list.getSize());
-        list.printList();
+        list.addBefore(billFumes, mikeWilson);
+
+        Employee melGates = new Employee("Mel", "Gates", 946);
+//        list.addBefore(melGates, mikeWilson);
+
+
+//        list.addToEnd(billFumes);
+//        System.out.println(list.getSize());
+//        list.printList();
 //        System.out.println(list.isEmpty());
+//
+//        list.removeFromFront();
+//        System.out.println(list.getSize());
+//        list.printList();
+//
+//        list.removeFromEnd();
 
-        list.removeFromFront();
-        System.out.println(list.getSize());
-        list.printList();
-
-        list.removeFromEnd();
         System.out.println(list.getSize());
         list.printList();
         

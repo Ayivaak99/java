@@ -5,6 +5,25 @@ public class EmployeeDoublyLinkedList {
     private EmployeeNode tail;
     private int size;
 
+    public void addBefore(Employee toAdd, Employee before) {
+        EmployeeNode current = head;
+        EmployeeNode node = new EmployeeNode(toAdd);
+
+        while (!current.getEmployee().equals(before) && current != null) {
+            current = current.getNext();
+        }
+        node.setPrevious(current.getPrevious());
+        node.setNext(current);
+        current.setPrevious(node);
+        if (head == current) {
+            head = node;
+        }
+        else {
+            node.getPrevious().setNext(node);
+        }
+        size++;
+    }
+
     public void addToFront(Employee employee) {
         EmployeeNode node = new EmployeeNode(employee);
         node.setNext(head);
