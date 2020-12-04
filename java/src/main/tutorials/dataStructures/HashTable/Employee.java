@@ -1,4 +1,4 @@
-package main.tutorials.dataStructures.LinkedLists;
+package main.tutorials.dataStructures.HashTable;
 
 import java.util.Objects;
 
@@ -54,6 +54,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return firstName + '\'' + lastName + '\'';
+        return firstName + ' ' + lastName;
     }
 }
