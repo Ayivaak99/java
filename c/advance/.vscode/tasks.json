@@ -4,12 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build project",
+            "label": "build hello world",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
+                "helloworld",
+                "helloworld.c"
             ],
             "group": {
                 "kind": "build", 
