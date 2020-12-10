@@ -11,7 +11,9 @@
                 "-g",
                 "-o",
                 "helloworld",
-                "helloworld.c"
+                "helloworld.c",
+                "storageclass",
+                "storageclass.c"
             ],
             "group": {
                 "kind": "build", 
